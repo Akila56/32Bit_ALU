@@ -59,6 +59,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
+![image](https://github.com/user-attachments/assets/bc040b57-ef8b-49de-80bb-c550f15b4a1a)
 
 ### Fig 2: Invoke the Cadence Environment
 
@@ -72,12 +73,15 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![image](https://github.com/user-attachments/assets/62db97ee-a2b6-4ea8-83a8-626e51c2df61)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![image](https://github.com/user-attachments/assets/1d2cecc7-c962-41a6-b142-d44dcaf97781)
+
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +104,8 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![image](https://github.com/user-attachments/assets/80d6603a-93e4-4d68-abac-97da0ca881bb)
+
 
 ### Fig 6: Nclaunch Window
 
@@ -158,6 +164,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
+![image](https://github.com/user-attachments/assets/531deda5-c52f-47a5-8cc9-1de22a10e646)
 
 ## Fig 8: Elaboration Launch Option
 
@@ -172,12 +179,16 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![image](https://github.com/user-attachments/assets/b3ab325c-c234-48a2-aac4-49d4021223d5)
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/7eabd6ec-b3d5-4921-b219-1a69add5ae98)
 
 ## Fig 10:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/b5d5df3a-86fa-4eed-bb5e-49614f3c157f)
 
 ## Fig 11:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/1ff7f4d4-5508-4b36-a697-9b6a3e0fd1fd)
 
 ### Result
 
